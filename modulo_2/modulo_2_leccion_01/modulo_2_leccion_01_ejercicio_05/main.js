@@ -1,11 +1,7 @@
+/* A partir de una página HTML en la que ponga "Mi contraseña es: Ada2020" y, usando JavaScript, tenemos que cambiar el texto 'Ada2020' por '**'. */
+
 'use strict';
-const titlePass = document.querySelector('.title');
-let passPass = document.querySelector('.pass');
-titlePass.innerHTML = titlePass.innerHTML + passPass;
-
-// 'use strict'
-
-// const passwordElement = document.querySelector('.password');
+const passElement = document.querySelector('.pass');
+passElement.innerHTML = '*******';
 
 
-// passwordElement.innerHTML = ' *******';

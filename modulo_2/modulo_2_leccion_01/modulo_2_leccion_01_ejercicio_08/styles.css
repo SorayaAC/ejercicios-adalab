@@ -1,0 +1,15 @@
+.button1{
+    padding: 30px;
+    border:blue solid 2px ;
+    color: blueviolet;
+}
+
+.button2{
+    padding: 30px;
+    border: pink solid 2px ;
+    color: blueviolet;
+}
+
+.hidden {
+    display: none;
+  }
