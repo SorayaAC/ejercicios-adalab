@@ -1,0 +1,21 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color:white;
+    border:5px solid grey ;
+}
+
+.item{
+    box-sizing: border-box;
+    border: solid 1px purple;
+    background-color: rgb(236, 195, 236);
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* Flex */
+
+.container{
+    display: flex;
+    flex-direction: column;
+}

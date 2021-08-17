@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid purple;
+    flex-direction: row;
+  }
+  section {
+     flex-basis: 50%; 
+  }
+  
+  .diferent {
+    flex-basis: 100%; 
+  }

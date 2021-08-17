@@ -1,0 +1,20 @@
+.container{
+    width: auto; 
+    height: 100px;
+    border:1px solid rgb(156, 55, 122) ;
+}
+
+.item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Flex */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
