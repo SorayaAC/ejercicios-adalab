@@ -1,0 +1,9 @@
+.dino{
+    width:100px;
+    height:100px;
+    padding: 10px;
+    border: solid 5px purple;
+    box-sizing: border-box;
+    margin-bottom: auto;
+    margin-top: auto;
+    }
