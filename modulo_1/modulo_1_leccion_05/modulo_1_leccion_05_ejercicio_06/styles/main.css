@@ -1,0 +1,13 @@
+.last{
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.text{
+    position: absolute;
+    bottom: 100px;
+}

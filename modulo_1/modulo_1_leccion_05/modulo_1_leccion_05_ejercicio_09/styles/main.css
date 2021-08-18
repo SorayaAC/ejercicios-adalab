@@ -1,0 +1,28 @@
+
+.body{
+    border: solid black 8px; 
+    position:absolute; 
+    transform: translate(50% 50%);
+}
+
+.container{
+    margin-top: 106px;   
+}
+.nametext{
+    font-size: 18px;
+    margin-bottom:40px;   
+}
+.headline{
+    font-size: 32px;
+    margin-bottom: 32px;   
+}
+
+.principaltext{
+font-size: 18px;
+margin-bottom: 27px;
+}
+
+.info{
+padding: 8px 16px 8px 16px;
+margin-left: -16px;
+}
