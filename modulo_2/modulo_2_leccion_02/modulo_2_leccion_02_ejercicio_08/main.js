@@ -21,11 +21,9 @@ const secondDogName = 'Luna';
 const thirdDogImage = 'https://images.dog.ceo/breeds/affenpinscher/n02110627_7065.jpg';
 const thirdDogName = 'Lana';
 
-const allDogs = '<li >`<img src="${firstDogImage}"/> ${firstDogName}.`</li> <li ></li> <li ></li>' ;
+const allDogs = document.querySelector('.js-ul');
+console.log(allDogs);
 
-// const firstElementDog = document.querySelector('.dog1');
-// firstElementDog.innerHTML = `<img src="${firstDogImage}"/> ${firstDogName}.`;
-// const secondElementDog = document.querySelector('.dog2');
-// secondElementDog.innerHTML = `<img src="${secondDogImage}"/> ${secondDogName}.`;
-// const thirdElementDog = document.querySelector('.dog3');
-// thirdElementDog.innerHTML = `<img src="${thirdDogImage}"/> ${thirdDogName}.`;
+allDogs.innerHTML = " <li> <img src='${firstDogImage}'/ > </li> <li></li> <li></li>"
+
+//Ejercicio no funciona
