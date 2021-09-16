@@ -1,0 +1,117 @@
+.reasons {
+	background-color: #eff9ff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	&__title {
+		&--text {
+			font-family: $title-font;
+			font-size: 24px;
+			text-transform: capitalize;
+			line-height: 30px;
+			margin-top: 30px;
+			margin-bottom: 45px;
+			@media all and (min-width: 768px) {
+				font-size: 26px;
+			}
+			@media all and (min-width:1280px) {
+				font-size: 32px;
+			}
+		}
+	}
+	&__button {
+		margin-top: 45px;
+		margin-bottom: 60px;
+		align-items: center;
+		&--text {
+			width: 184px;
+			height: 45px;
+			background-color: #f26002;
+			border-radius: 22.5px;
+			font-family: $text-font;
+			font-size: 20px;
+			color: #ffffff;
+			text-align: center;
+			border-color: #f26002;
+			border-style: solid;
+			transition: color ease 1s, background-color ease 1s, border-color ease 1s;
+		}
+		&--text:hover {
+			background-color: #ffffff;
+			border-color: #f26002;
+			color: #f26002;
+		}
+	}
+}
+
+.items {
+	display: grid;
+	grid-gap: 45px;
+	@media all and (min-width: 768px) {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	@media all and (min-width: 1280px) {
+		grid-template-columns: 1fr 1fr 1fr;
+		margin-left: -100px;
+		margin-right: -150px;
+	}
+	&__item1 {
+		&--title {
+			font-family: $title-font;
+			font-size: 18px;
+			line-height: 30px;
+			@media all and (min-width: 768px) {
+				font-size: 24px;
+			}
+		}
+		&--text {
+			font-family: $text-font;
+			font-size: 18px;
+			line-height: 30px;
+			@media all and (min-width: 768px) {
+				font-size: 20px;
+			}
+		}
+	}
+	&__item2 {
+		&--title {
+			font-family: $title-font;
+			font-size: 18px;
+			line-height: 30px;
+			@media all and (min-width: 768px) {
+				font-size: 24px;
+			}
+		}
+		&--text {
+			font-family: $text-font;
+			font-size: 18px;
+			line-height: 30px;
+			@media all and (min-width: 768px) {
+				font-size: 20px;
+			}
+		}
+	}
+	&__item3 {
+		&--title {
+			font-family: $title-font;
+			font-size: 18px;
+			line-height: 30px;
+			@media all and (min-width: 768px) {
+				font-size: 24px;
+			}
+		}
+		&--text {
+			font-family: $text-font;
+			font-size: 18px;
+			line-height: 30px;
+			@media all and (min-width: 768px) {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+
+

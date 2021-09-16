@@ -1,0 +1,107 @@
+.footer {
+	background-color: #304268;
+	&__button {
+		display: flex;
+		justify-items: center;
+		justify-content: center;
+		&--arrow {
+			width: 45px;
+			height: 45px;
+			border-radius: 22.5px;
+			background-color: #ffffff;
+			border-color: #ffffff;
+			border-style: solid;
+			border-radius: 50%;
+			position: relative;
+			bottom: 20px;
+			animation-name: move;
+			animation-duration: 7s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+		}
+		@keyframes move {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+	}
+	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		@media all and (min-width: 768px) {
+			flex-direction: row-reverse;
+			justify-content: space-around;
+			text-align: left;
+			align-items: baseline;
+			margin-top: -20px;
+		}
+		@media all and (min-width: 1280px) {
+			padding-left: 370px;
+			padding-right: 370px;
+		}
+		&--nav1 {
+			font-family: $text-font;
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 16px;
+			line-height: 30px;
+			text-decoration: none;
+			margin-top: 30px;
+			@media all and (min-width: 768px) {
+				margin-bottom: 45px;
+			}
+			@media all and (min-width: 1280px) {}
+			&__item {
+				font-family: $text-font;
+				color: #ffffff;
+				text-transform: uppercase;
+				font-size: 16px;
+				line-height: 30px;
+				text-decoration: none;
+			}
+		}
+		&--nav2 {
+			font-family: $text-font;
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 16px;
+			line-height: 30px;
+			text-decoration: none;
+			margin-top: 20px;
+			@media all and (min-width: 768px) {
+				order:-1;
+			}
+			@media all and (min-width: 1280px) {}
+			&__item {
+				font-family: $text-font;
+				color: #ffffff;
+				text-transform: uppercase;
+				font-size: 16px;
+				line-height: 30px;
+				text-decoration: none;
+			}
+		}
+		&--copy {
+			margin-top: 30px;
+			margin-bottom: 45px;
+			@media all and (min-width: 768px) {}
+			@media all and (min-width: 1280px) {}
+			&__list {
+				font-family: $text-font;
+				font-size: 14px;
+				color: #ffffff;
+				line-height: 30px;
+			}
+		}
+	}
+}
+
+.fa-heart {
+	color: #f26002;
+}

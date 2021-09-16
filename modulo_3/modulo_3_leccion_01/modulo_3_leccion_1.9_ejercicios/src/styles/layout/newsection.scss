@@ -1,0 +1,20 @@
+.section{
+    width: 100%;
+    background-color: $orange;
+    color: $withe;
+    display:flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    
+    @media all and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 20px;
+        background-color: $blue;
+    }
+    &__text{
+        text-decoration: none;
+        color: $withe;
+    }
+}

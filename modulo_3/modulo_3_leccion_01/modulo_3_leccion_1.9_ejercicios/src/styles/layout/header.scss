@@ -1,0 +1,15 @@
+.header {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	&__box {
+		width: 44px;
+		height: 44px;
+		background-color: #0271bc;
+	}
+	&__item {
+		padding: 14px 14px 15px;
+		width: 16px;
+		height: 14px;
+	}
+}
